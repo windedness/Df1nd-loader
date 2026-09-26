@@ -18,7 +18,7 @@
 ‎end
 ‎
 ‎if string.find(code, "<html", 1, true) or string.find(code, "Bad Gateway", 1, true) then
-‎	warn(TAG .. " 502 Bad Gateway — GitHub is down or blocked")
+‎	warn(TAG .. " 502 Bad Gateway — GitHub is down orr blocked")
 ‎	warn(TAG .. " Try using a VPN or mirror")
 ‎	return
 ‎end
